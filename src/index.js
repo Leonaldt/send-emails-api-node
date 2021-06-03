@@ -26,8 +26,8 @@ app.use(emailRouter)
 
 app.listen(port, () => {
     console.log ('\x1b[31m%s\x1b[0m', `Server is up on port ' + ${port}`)
-    console.log('\x1b[34m%s\x1b[0m', `User Info: ${JSON.stringify(os.userInfo())}`); // ""
-    console.log('\x1b[34m%s\x1b[0m', `Type: ${os.type()}`); // "Windows_NT"
-    console.log('\x1b[34m%s\x1b[0m', `Release: ${os.release()}`); // "10.0.14393"
-    console.log('\x1b[34m%s\x1b[0m', `Platform: ${os.platform()}`); // "win32"
+    console.log('\x1b[31m%s\x1b[0m', `User Info: ${JSON.stringify(os.userInfo())}`); // ""
+    console.log('\x1b[31m%s\x1b[0m', `Type: ${os.type()}`); // "Windows_NT"
+    console.log('\x1b[31m%s\x1b[0m', `Release: ${os.release()}`); // "10.0.14393"
+    console.log('\x1b[31m%s\x1b[0m', `Platform: ${os.platform()}`); // "win32"
 })
