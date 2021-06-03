@@ -1,4 +1,5 @@
 const express = require('express')
+const os = require('os')
 const cors = require('cors')
 
 const emailRouter = require('./routers/email')
@@ -24,5 +25,10 @@ app.use(express.json())
 app.use(emailRouter)
 
 app.listen(port, () => {
-    console.log('Server is up on port ' + port)
+    console.log(`Server is up on port ' + ${port}`)
+    console.log('******************************')
+    console.log(`Type: ${os.type()}`); // "Windows_NT"
+    console.log(`Release: ${os.release()}`); // "10.0.14393"
+    console.log(`Platform: ${os.platform()}`); // "win32"
+    console.log('******************************')
 })

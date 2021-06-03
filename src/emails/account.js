@@ -12,6 +12,10 @@ const sendWelcomeEmail = (name, email, password) => {
                <p>Esta é a sua senha de acesso: <b>${password}.</b></p>
                <p>Você pode alterar a hora que quiser, basta ir na opção <a href="#">alterar senha</a> disponível na sua conta.</p>
                <p>Nós do Reszon agradecemos a confiança!</p>`
+    }).then(res => {
+        console.log(res)
+    }).catch(err => {
+        console.log(err)
     })
 }
 
