@@ -7,7 +7,7 @@ const emailRouter = require('./routers/email')
 const app = express()
 const port = process.env.PORT
 
-var whitelist = ['http://localhost:4200', 'https://reszon.com.br']
+var whitelist = ['http://localhost:4200', 'https://www.reszon.com.br']
 var corsOptions = {
     origin: function (origin, callback) {
         console.log('origin: ', origin)
