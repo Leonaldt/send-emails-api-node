@@ -4,8 +4,15 @@
 npm run dev
 ```
 
-## :rocket: Demo link
+## :rocket: Built with
 
 This project was developed with the following technologies:
 
--  [Demo link](https://www.google.com)
+-  [Node.js](https://github.com/nodesource/distributions/blob/master/README.md)
+-  [NPM](https://www.npmjs.com/)
+-  [Express](https://www.npmjs.com/package/express)
+-  [Express Validator](https://www.npmjs.com/package/express-validator)
+-  [Cors](https://www.npmjs.com/package/cors)
+-  [Sendgrid](https://www.npmjs.com/package/@sendgrid/mail)
+-  [Env-cmd](https://www.npmjs.com/package/env-cmd)
+-  [Nodemon](https://www.npmjs.com/package/nodemon)
