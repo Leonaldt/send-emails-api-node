@@ -13,6 +13,6 @@ This project was developed with the following technologies:
 -  [Express](https://www.npmjs.com/package/express)
 -  [Express Validator](https://www.npmjs.com/package/express-validator)
 -  [Cors](https://www.npmjs.com/package/cors)
--  [Sendgrid](https://www.npmjs.com/package/@sendgrid/mail)
+-  [SendGrid](https://www.npmjs.com/package/@sendgrid/mail)
 -  [Env-cmd](https://www.npmjs.com/package/env-cmd)
 -  [Nodemon](https://www.npmjs.com/package/nodemon)
